@@ -1,5 +1,10 @@
 package Class;
 
+/**
+ *
+ * Este contiene la clase personas donde tiene una variable tipo de String de
+ * nombre con sus contructores y sus Get y Set y toString.
+ */
 public class Person {
 
     private String nombre;
@@ -29,8 +34,5 @@ public class Person {
     public String toString() {
         return "Person{" + "nombre=" + nombre + '}';
     }
-    
 
-   
-    
 }

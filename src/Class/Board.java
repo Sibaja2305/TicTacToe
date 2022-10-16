@@ -1,5 +1,10 @@
 package Class;
-
+/**
+ * 
+ * Esta clase contiene el board y el empthy que es el vacio para el tablero y 
+ * contiene sus get y set y su toString
+ * 
+ */
 public class Board {
 
     private char board ;

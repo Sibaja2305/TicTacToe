@@ -1,5 +1,10 @@
 package Class;
-
+/**
+ * 
+ * Este contiene 2 varibles de tipo char que es J1 y J2, esta clase contiene para
+ * J1=x y J2=o y solo contiene su get porque ya tiene su simbolo puesto para cada
+ * uno y el toString.
+ */
 public class Player extends Person {
 
     private final static char J1 = 'x';
@@ -31,9 +36,7 @@ public class Player extends Person {
         return J2;
     }
 
-    /**
-     * @param j2 the j2 to set
-     */
+    
     @Override
     public String toString() {
         return "Player{" + "j1=" + J1 + ", j2=" + J2 + '}';
